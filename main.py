@@ -33,8 +33,8 @@ if __name__ == "__main__":
 
         match user_option:
             case "1": CRUD.read_console()
-            case "2": print('Add Data')
-            case "3": print('Update Data')
+            case "2": CRUD.create_console()
+            case "3": CRUD.update_console()
             case "4": print('Delete Data')
 
         is_done = input('Apakah Selesai (y/n)')
